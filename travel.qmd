@@ -1,0 +1,58 @@
+---
+format: html
+css: styles.css
+page-layout: full
+body-classes: travel-page
+---
+
+
+```{=html}
+
+
+<div class="travel-page">
+
+<h1> My travel adventures are linked below in the different cards. I've treated these somewhat like a travel blog. Some are for research purposes, and some are just for fun. I hope you enjoy them!</h1>
+
+<div class="trip-container">
+  <!-- Trip 1 -->
+  <div class="trip-card">
+    <div class="overlay"></div>
+    <a href="GCE.qmd">
+      <img src="images/GCE/GCE_card.jpg" alt="Grand Caynon cover page">
+      <h2>Grand Canyon Expedition June 2024</h2>
+    </a>
+  </div>
+  
+  <!-- Trip 2 -->
+  <div class="trip-card">
+    <div class="overlay"></div>
+    <a href="aus.qmd">
+      <img src="images/aus/card_aus.jpg" alt="Australia cover page">
+      <h2>NSF IRES Program: Australia Coral Reef Science</h2>
+    </a>
+  </div>
+
+  <!-- Trip 3 -->
+  <div class="trip-card">
+    <div class="overlay"></div>
+    <a href="costa_rica.qmd">
+      <img src="images/CR/CR_card.jpg" alt="Costa Rica 2023">
+      <h2>Costa Rica 2023</h2>
+    </a>
+  </div>
+
+  <!-- Trip 4 -->
+  <div class="trip-card">
+    <div class="overlay"></div>
+    <a href="DR.qmd">
+      <img src="images/DR/DR_card.jpg" alt="Dominican Republic">
+      <h2>The Dominican Republic Chronicles</h2>
+    </a>
+  </div>
+
+  <!-- Add more trip cards here -->
+</div>
+
+</div>
+
+```

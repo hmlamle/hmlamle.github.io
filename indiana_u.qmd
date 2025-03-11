@@ -1,0 +1,20 @@
+---
+title: "Indiana University"
+format: html
+css: styles.css
+page-layout: full
+body-classes: IU
+---
+
+As an undergraduate student, I was a research assistant for the Center for Underwater Science from August of 2020 to May of 2022. During this time, I mainly assisted with the creation of [interpretive materials](https://underwaterscience.indiana.edu/research/current-research/underwater-park-development.html) for a variety of shipwrecks-turned cultural heritage sites. These included the *USS H1 Seawolf* off of Baja California, Mexico, *J.D. Marshall* and *Muskegon* in Indiana Lake Michigan waters, and the *Enriquillo* off of Punta Cana, Mexico. I also created government monitoring reports for the Dominican Republic and presented a research poster, highlighted below. 
+
+
+### Monitoring of *Dendrogyra cylindrus* colonies during active SCTLD outbreak. Bayahibe, Dominican Republic 
+
+The report generated below was in response to word that *Dendrogyra cylindrus*, Pillar coral, was undergoing rapid deterioration on Guaraguao reef, where the Guadalupe Underwater Archaeological Preserve was located.
+
+::: {#pdf-viewer}
+  ![](D.cyl_RA_112022.pdf)
+:::
+
+### Spatial patterning of threatened corals in relation to shipwreck location. 

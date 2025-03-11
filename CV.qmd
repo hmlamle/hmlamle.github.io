@@ -1,0 +1,12 @@
+---
+title: Curriculum Vitae
+format: html
+css: styles.css
+page-layout: full
+body-classes: CV
+---
+
+
+::: {#pdf-viewer}
+  ![](HML_CV_03042025.pdf)
+:::

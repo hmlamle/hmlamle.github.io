@@ -1,0 +1,43 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  favicon: 'images/logo.png'
+  navbar:
+    logo: 'images/logo.png'
+    right:
+      - about.qmd
+      - text: "Research"
+        href: fiu.qmd  
+      - CV.qmd
+      - text: "Travel"
+        href: travel.qmd
+    tools:
+      - icon: instagram
+        href: https://www.instagram.com/hannah_mari.n.e/
+      - icon: bluesky
+        href: https://bsky.app/profile/hannah-marine.bsky.social 
+      - icon: github
+        href: https://github.com/hmlamle
+    toggle-position: right
+    tools-collapse: true
+
+  page-footer: 
+    left: © Hannah-Marie Lamle, made with love using RStudio and GitHub
+    right: 
+      - icon: instagram
+        href: https://www.instagram.com/hannah_mari.n.e/
+      - icon: bluesky
+        href: https://bsky.app/profile/hannah-marine.bsky.social 
+      - icon: github
+        href: https://github.com/hmlamle
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+
+
+

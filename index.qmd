@@ -1,0 +1,20 @@
+---
+#title: ""
+image: images/HML.jpg
+about: 
+  template: jolla
+  image-shape: round
+  image-width: 20em
+page-layout: full
+body-classes: index
+---
+
+::: {#bio}
+# Welcome!
+*My name is Hannah-Marie Lamle. Yes, Hannah-Marie is my full first name, don't let the hyphen fool you! I am an aspiring coral reef ecologist, currently earning my PhD at Florida International University. Broadly, I am interested in applying trait-based quantitative methods to understand coral community function and resilience. Outside of school, I love to dive recreationally, read, and run! Stay a while and explore more [about me](about.qmd), [my work](fiu.qmd), and [my travels](travel.qmd)!*
+:::
+
+
+
+
+

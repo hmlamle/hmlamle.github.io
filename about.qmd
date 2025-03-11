@@ -1,0 +1,24 @@
+---
+title: "About Me"
+format: html
+css: styles.css
+page-layout: full
+body-classes: about
+---
+
+
+### Upbringing
+<img src="images/aboutme1.jpg" alt="Childhood me wakeboarding" width="400" style="float: right; margin-left: 20px; margin-bottom: 5px"/>
+<p style="font-size: 20px;"> I was born and raised in Northern Indiana, a product of <a href="https://www.travelindiana.com/kosciusko-county-the-land-of-lakes/">Land of Lakes County</a>. I only half jokingly say that lake water makes up my blood. Growing up, my small family and I would spend every possible moment on our boat. I have fond childhood memories of enjoying the water: From leisurely boat rides, dropping anchor and getting lost in a book, to water skiing, wakeboarding, and surfing. I even got my PADI open water certification at age 10 on our boat in the lake! Each summer before high school (before sports practices started to dominate my schedule) I would also commandeer my families paddle boat to catch turtles, jar seaweed to ID on the family computer, and look for bluegill nests along the channel edge. Being so connected to the water from an early age undoubtedly shaped my career path in the natural sciences, and once I was introduced to the marine environment, I knew I was going to be a marine biologist. </p>
+
+
+
+### Hobbies 
+<p style="font-size: 20px;">As previously mentioned, I grew up as an athlete as well as an amateur limnologist, and sports is still a large part of my life today. In addition to playing three sports in high school, I also was on my collegiate wakeboarding club team, which was such as cool experience and how I met some of my best friends at IU. I'm a passionate fan of men's and women's basketball, always rooting on my Hoosiers, and love March Madness. I don't play a lot of basketball anymore, but do spend a lot of my free time playing tennis recreationally. It's a lot easier to do so here in South Florida, where there's never any snow! I also have recently been getting into running as a hobby, and completed my first half marathon in February of 2025. Looking forward to more races to come!</p>
+
+<p style="font-size: 20px;">Outside of school and being active, I don't have much time for anything else, but on occasion do like to partake in some creative hobbies as well. These include reading, making friendship bracelets, which I do just for fun and gift to people I love (I joke that if I give you one, your now branded by me) and also by journaling and scrapbooking. I am very much a pack rat (I never throw anything away), so I scrapbooking is a great way to commemorate the useless things with sentimental value I've collected, like concert tickets, admission bracelets, boarding passes and fliers. It's a fun way to keep all of these things while not having them make a mess and clutter up my room.</p>
+
+<img src="images/about2.jpg" alt="My father and I before a dive. Cozumel, MX circa 2010" width="400" style="float: left; margin-right: 20px; margin-bottom: 5px"/>
+
+<H3>Scuba Diving</H3>
+<p style="font-size: 20px;">Of course, being a coral reef ecologist means that diving is a part of my job. But I still enjoy suiting up to go for recreational dives, and South Florida is a mecca for the diving industry in the US. I was first certified at 10 as a Junior Open Water Diver. It was not intimidating for me at all, I loved to learn the physics of diving, and grew up watching my dad dive on our family vacations with my aunt and uncle. I didn't get my second certification until I was at Indiana University. I thought well, what the heck, I might as well get my Advanced Cert if they offer it here, and from then on was hooked in the Center for Underwater Science (more on this in my research and travel tabs). I continued up to Dive Master as well as getting my scientific diving cert at IU, and became an instructor the Summer of 2022. Teaching diving was extremely intimidating for me, quite frankly I was terrified at first of having people's lives in my hands, but realized that it is so rewarding. Of course, if your taking a diving course at IU, you like it at least a little bit, but what made teaching so fulfilling to me was the couple of students whos eyes would light up and I knew that I'd opened a new world of possibilities for them. I don't teach anymore since I'm in grad school, but it is a hobby I am hoping to get back into, perhaps after I graduate..</p>

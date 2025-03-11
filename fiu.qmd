@@ -1,0 +1,11 @@
+---
+title: "Florida International University"
+format: html
+css: styles.css
+page-layout: full
+body-classes: FIU
+---
+
+<p style="font-size: 20px; display: flex; justify-content: center; align-items: center;"><i><b>Quantifying colorful communities: Community assembly, function and resilience of corals throughout South Florida using spectral traits</i></b></p>
+
+Coming soon... please stay patient while I showcase my PhD dissertation work! 
