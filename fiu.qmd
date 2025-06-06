@@ -6,6 +6,12 @@ page-layout: full
 body-classes: FIU
 ---
 
-<p style="font-size: 20px; display: flex; justify-content: center; align-items: center;"><i><b>Quantifying colorful communities: Community assembly, function and resilience of corals throughout South Florida using spectral traits</i></b></p>
+<div style="background: linear-gradient(to right, #d6e4f0, #eaf6ff); border-left: 6px solid #1d3a69; padding: 10px; margin: 40px auto; max-width: 900px; text-align: center; font-size: 24px; font-weight: bold; font-style: italic; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);">
+  Quantifying colorful communities: Community assembly, function and resilience of corals throughout South Florida using spectral traits</div>
 
-Coming soon... please stay patient while I showcase my PhD dissertation work! 
+  Coral reefs are facing dire threats due to anthropogenic climate change^1^. From rising sea surface temperatures, increasing ocean acidity, more frequent disturbance events from hurricanes, and increased levels of nutrient and other pollution. Yet, despite the increasing frequency and severity of mass bleaching events^2^, informative metrics for quantifying the function, and resilience  of coral communities remains limited. Innovative techniques in terrestrial communities are relying on trait-based methods to better visualize concepts such as community assembly^3^, species interactions^4^, and habitat suitability^5^. Thus, my dissertation will first explore novel methodology techniques to extract coral physiological traits values non-invasively via spectral reflectance. Subsequently, I will be performing an observational study applying a trait-based diversity metric to coral communities in South Florida to better explain why individuals have been able to persist across environmental gradients, how these traits are influencing population demography, and interactions with other benthic competitors such as macroalgae. 
+
+<div style="background: linear-gradient(to right, #d6e4f0, #eaf6ff); border-left: 6px solid #1d3a69; padding: 5px; margin: 40px auto; max-width: 900px; text-align: center; font-size: 18px; font-weight: bold; font-style: italic; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);">
+  Creating the Coral Health Index
+</div>
+

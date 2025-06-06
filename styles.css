@@ -175,9 +175,12 @@ html, body.FIU {
   width: 100%;
   margin: 0;
   padding: 0;
+  color: #1d3a69;
 }
 
-body.FIU {
+/* decided to keep background for this page white so that when I create figures
+and conceptual diagrams to showcase they look cleaner*/
+/*body.FIU {
   background-image: url("images/FIU_background2.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -187,7 +190,7 @@ body.FIU {
   margin: 0;
   padding: 0;
   color: lightgray; 
-}
+}*/
 
 /* --------------------------------CV page -----------------------------------*/
 
