@@ -24,20 +24,21 @@ website:
     tools-collapse: true
 
   page-footer: 
-    left: © Hannah-Marie Lamle, made with love using RStudio and GitHub
+    left: © 2026 Hannah-Marie Lamle, made with <i class='fa-solid fa-heart'></i> using <i class='fa-brands fa-github'></i>, <i class='fa-brands fa-r-project'></i> and Quarto
     right: 
-      - icon: instagram
-        href: https://www.instagram.com/hannah_mari.n.e/
-      - icon: bluesky
-        href: https://bsky.app/profile/hannah-marine.bsky.social 
-      - icon: github
-        href: https://github.com/hmlamle
+      - icon: envelope
+        href: mailto:hlaml001@fiu.edu
+
 
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: false
+    include-in-header:
+      - text: |
+          <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
 
 
 

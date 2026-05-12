@@ -1,7 +1,67 @@
-/* css styles */
+/*-------------------------- General Formatting: ---------------------------*/
 
 body {
-  font-family: Arial;
+  font-family: 'Montserrat', Sans-Serif;
+}
+
+.icon-blue {
+  color: #1d3a69;
+  font-size: 1.5em;
+}
+
+.img-right {
+  float: right;
+  margin: 20px auto;
+  width: 40%;
+  border-radius: 10px;
+}
+
+.img-left {
+  float: left;
+  margin: auto 20px;
+  width: 40%;
+  border-radius: 10px;
+}
+
+.larger-text {
+  font-size: clamp(1rem, 1.2vw, 2.5rem);
+}
+
+.image-gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;       /* stack on narrow screens */
+  gap: 100px;             /* space between images */
+  margin-bottom: 40px;
+}
+
+.image-gallery img {
+  flex: 0 0 300px;        /*base width for each image */
+  max-width: 100%;       /* shrink on smaller screens */
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Center images in the last row if fewer items */
+.image-gallery::after {
+  content: "";
+  flex: auto;
+}
+
+#pdf-viewer {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically (if the container has height) */
+  width: 100%; /* Makes it span full width */
+}
+
+#pdf-viewer iframe, 
+#pdf-viewer embed, 
+#pdf-viewer object {
+  width: 100vh; /* Adjust this to make the PDF viewing box bigger */
+  height: 1200px; /* Adjust height to fit more content */
+  border: none; /* Removes unwanted borders */
 }
 
 
@@ -63,7 +123,7 @@ body {
     background-image: url(/images/navbar_background2.png); 
     background-size: cover; /* Ensures it covers the entire footer */
     background-position: center;
-    padding: 20px 0; /* Adjust padding for better spacing */
+    padding-bottom: 0px;  /*Adjust padding for better spacing */
     color: #1d3a69;
 }
 
@@ -78,12 +138,16 @@ body {
 }
 
 
-/* ------------------------------- Index ------------------------------------*/
+/* -------------------- Page-Level Formatting: ---------------------------*/
+
+/* ============= */
+  /* HOME PAGE */
+/* ============= */
 
 /* Target the div that contains the image and text */
 .quarto-about-jolla.column-page {
-  margin-top: 40px;  /* Adjust this value to reduce the space at the top */
-  padding-bottom: 10px;  /* Adjust bottom padding to reduce space below */
+  margin-top: 5px;  /* Adjust this value to reduce the space at the top */
+  padding-bottom: 0px;   /*Adjust bottom padding to reduce space below */
 }
 
 body.index { */
@@ -91,7 +155,7 @@ body.index { */
   background-color: #c9eaf0;  
 }
 
-#bio {
+.bio {
   margin-top: -50px;  /* Space between the bio and image */
 }
 
@@ -102,16 +166,9 @@ body.index { */
   padding: 0 20px;  /* Add padding to the sides of the bio text */
 }
 
-
-/* ---------------------------- About Me page -------------------------------*/
-
-html, body.about {
-  height: auto; /* Allows the background to expand beyond viewport */
-  min-height: 100vh; /* Ensures it at least covers the full screen */
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
+/* ============= */
+/* ABOUT ME PAGE */
+/* ============= */
 
 body.about {
   background-image: url("images/about_background.png");
@@ -125,14 +182,15 @@ body.about {
   color: #1d3a69; 
 }
 
+/* ============= */
+   /* IU PAGE */
+/* ============= */
 
+/* not using this page at the moment */
 
-/* ----------------------------- IU Research --------------------------------*/
-/* not using this page at the moment
-
-html, body.IU {
-  height: auto; /* Allows the background to expand beyond viewport */
-  min-height: 100vh; /* Ensures it at least covers the full screen */
+/* html, body.IU {
+  height: auto;  Allows the background to expand beyond viewport 
+  min-height: 100vh;  Ensures it at least covers the full screen 
   width: 100%;
   margin: 0;
   padding: 0;
@@ -148,26 +206,12 @@ body.IU {
   margin: 0;
   padding: 0;
   color: black; 
-}
-
-#pdf-viewer {
-  display: flex;
-  justify-content: center; /* Centers horizontally */
-  align-items: center; /* Centers vertically (if the container has height) */
-  width: 100%; /* Makes it span full width */
-}
-
-#pdf-viewer iframe, 
-#pdf-viewer embed, 
-#pdf-viewer object {
-  width: 100vh; /* Adjust this to make the PDF viewing box bigger */
-  height: 700px; /* Adjust height to fit more content */
-  border: none; /* Removes unwanted borders */
-}
+}*/
 
 
-
-/* ----------------------------- FIU Research -------------------------------*/
+/* ============= */
+  /* FIU PAGE */
+/* ============= */
 
 html, body.FIU {
   height: auto; /* Allows the background to expand beyond viewport */
@@ -192,7 +236,9 @@ and conceptual diagrams to showcase they look cleaner*/
   color: lightgray; 
 }*/
 
-/* --------------------------------CV page -----------------------------------*/
+/* ============= */
+   /* CV PAGE */
+/* ============= */
 
 
 body.CV { */
@@ -200,8 +246,10 @@ body.CV { */
   background-color: #c9eaf0;  
 }
 
-
-/* -----------------Travel page -----------------*/
+/*--------------------------- Travel Pages: --------------------------------*/
+  /* ============= */
+/* MAIN TRAVEL PAGE */
+  /* ============= */
 
 /* Styles for travel page */
 
@@ -210,12 +258,12 @@ body.travel-page {
 }
 
 .travel-page {
-  padding: 20px;
-  min-height: 100vh;
+  padding-top: 10px;
+  /*min-height: 100vh;*/
 }
 
 .travel-page h1 {
-  font-size: 2rem;
+  font-size: clamp(1rem, 1.5vw, 2.5rem);
   text-align: center;
   margin-bottom: 30px;
   color: #54441a;
@@ -292,8 +340,9 @@ body.travel-page {
   width: calc(100% - 30px); /* Ensures text width stays within card */
 }
 
-/* -----------------Grand Canyon page -----------------*/
-
+  /* ============= */
+/* GRAND CANYON PAGE */
+  /* ============= */
 
 
 body.GCE {
@@ -303,6 +352,31 @@ body.GCE {
 
 footer.GCE {
   background-color: #a4c3f5;
+}
+
+.flex-quote {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;          /* stack on narrow screens */
+  gap: 20px;
+  max-width: 1200px;        /* optional: constrain container */
+  margin: 0 auto 40px auto; /* center container */
+}
+
+.flex-quote img {
+  width: 100%;               /* force 50% of flex container */
+  max-width: 500px;         /* optional: prevents image from growing too large */
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.flex-quote .quote-text {
+  flex: 1;                  /* text takes remaining space */
+  min-width: 250px;         /* text won’t get too narrow */
+  font-size: clamp(1.2rem, 1.5vw, 2rem);  /* responsive font size */
+  line-height: 1.5;
+  margin: 0;
 }
 
 /* -----------------Dominican Republic page -----------------*/

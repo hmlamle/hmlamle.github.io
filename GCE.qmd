@@ -4,20 +4,20 @@ format: html
 css: styles.css
 page-layout: full
 body-classes: GCE
+# fig-cap-location: top
 ---
 
-
-<div style="display: flex; align-items: center;">
-  <img src="images/GCE/GCE_card.jpg" alt="Our sleeping arrangements" width="500" style="margin-right: 20px; margin-bottom: 50px"/>
+<div class="flex-quote">
+  <img src="images/GCE/GCE_card.jpg" alt="Our sleeping arrangements"/>
   
-  <p style="font-size: 28px;"> <i><b>"The Grand Canyon, her majesty with walls red like a cape and glistening water she wears as jewels helped me to remember to honor the earth as the royalty she is and helped remind me why I do what I do."</b></i></p>
+  <p class="quote-text">
+    <i><b>"The Grand Canyon, her majesty with walls red like a cape and glistening water she wears as jewels helped me to remember to honor the earth as the royalty she is and helped remind me why I do what I do."</b></i>
+  </p>
 </div>
-
-
 
 This Trip was nothing short of amazing. It was a back-to-back travel experience for me, as I landed in the Las Vegas airport at midnight, after 24 hours of travel from Townsville, Australia. I met my mom in the hotel lobby, of course she stayed up to greet me, and we stayed up a lot longer than we should have discussing my trip. 
 
-<img src="images/GCE/horse.jpg" alt="The horse that appeared as we were pushing off" width="300" style="float: right; margin-left: 20px; margin-bottom: 5px"/>
+![](images/GCE/horse.jpg){.img-right}
 
 In the whirlwind of travelling and feeling like I'd somehow manifested to Las Vegas, I wasn't exactly looking forward to this trip at the start. I was worried about being completely absent (no cell signal in the Canyon) for a week, as I was TAing for an online class at the time and also just being away from the Lab if anything was needed of me. However, after the pre-trip departure meeting, I began to get excited. Our trip consisted of 28 people in total, in two large inflatable motorized rafts. Conveniently, all 28 people were from my hometown, and one of my longest friends was also going on the trip. So, seeing lots of familiar faces and hearing about the fun that we are soon to have helped to shake off the anxiety of being away. 
 
@@ -25,11 +25,11 @@ After a 5am extremely nauseating bus ride (don't ask, you don't want to know), w
 
 The first day of the trip was a bit rough, for me and for mom too. I had no doubts that I'd be fine with the living and sleeping conditions of the trip (cowboy camping under the stars sounded lovely to me) but was worried about my jetlag and how long it would take me to adjust to the drastic time change. I'd seen my boyfriend Ben be taken down by a weeks worth of jetlag from just an 8 hour time difference in Saudi, let alone the 18 hour difference I was facing. I kept falling asleep in the boat and was woken up abruptly to the chilly 45 degree water, and my mom was increasingly poking me and (in a way that only mothers could do) reminding me, not very gently, that if I were to beat the jetlag I have to force myself to stay awake. Once we got off the boat for our first camp of the trip, I perked up again, with the exciting opportunity to pick our camp and set up, and also to help unload the boats. This is where things got rough for mom. She is not much of an outdoorswoman, I have never in my 24 years of life taken a camping trip with her, and all of the skills I learned have come from my friends, boyfriend, and the backpacking class I took at IU (yes, really). She was pitching a fit (without pitching her own cot I might add) about these accommodations, to which I replied we are very lucky we have a cot to sleep on, people cooking all of our meals, and are most certainly not roughing it out here in the wilderness. Like the good daughter I am, I set up her bed for her and our little living arrangements. We shared an alcove of sand with my childhood friend Addison, his girlfriend, Mercedes, sister, Aly, and other friend, Austin (all of whom I was also friends with) and his mom, which was very cute. After this first night, and a bit of a wakeup call from myself I might add, mom got on much better with the camping, and my jetlag disappeared after the first night of 10 hours of sleep. 
 
-<div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap;">
-  <img src="images/GCE/Asset0039.jpg" alt="Boats beached for lunch" width="300" style="height: 400px; object-fit: cover; margin-bottom: 5px; margin-right: 20px;"/>
-  <img src="images/GCE/Asset0036.jpg" alt="Momma at camp" width="300" style="height: 400px; object-fit: cover; margin-bottom: 5px; margin-right: 20px;"/>
-  <img src="images/GCE/redwalls.jpg" alt="View from turnaround point of a hike" width="300" style="height: 400px; object-fit: cover; margin-bottom: 5px"/>
-</div>
+::: {.image-gallery}
+![](images/GCE/Asset0039.jpg){alt="Boats beached for lunch"}
+![](images/GCE/Asset0036.jpg){alt="Momma at camp"}
+![](images/GCE/redwalls.jpg){alt="View from turnaround point of a hike"}
+:::
 
 The next few days tended to blend together, as red rocks transitioned from the Marble Canyon to the Grand Canyon Proper, we explored incredible hikes and sites along the side of the river, learned about the geology of the Grand Canyon and greater American Southwest. We also got many history lessons regarding the American presence in the Canyon, from the wild west up to present day. I was a bit disappointed in the relative lack of indigenous presence in many of the stories our guide told of the history of the Canyon. It was painted in the old and wore-out frame that these "native savages" were civilized by westward expansion and colonization, which was unpleasant to hear at best and racist and uninformed at worst. However, despite this, we still had a good time, and it seemed our other guide and swampers didn't share this ideology. 
 

@@ -9,12 +9,15 @@ page-layout: full
 body-classes: index
 ---
 
-::: {#bio}
+::: {.bio}
 # Welcome!
-*My name is Hannah-Marie Lamle. Yes, Hannah-Marie is my full first name, don't let the hyphen fool you! I am an aspiring coral reef ecologist, currently earning my PhD at Florida International University. Broadly, I am interested in applying trait-based quantitative methods to understand coral community function and resilience. Outside of school, I love to dive recreationally, read, and run! Stay a while and explore more [about me](about.qmd), [my work](fiu.qmd), and [my travels](travel.qmd)!*
+*My name is Hannah-Marie Lamle. Yes, Hannah-Marie is my full first name, don't let the hyphen fool you! I am an aspiring coral reef ecologist, currently pursuing my PhD at Florida International University. Broadly, I am interested in applying trait-based quantitative methods to understand coral community function and resilience. Outside of school, I love to dive recreationally, read, and run! Stay a while and explore more [about me](about.qmd), [my work](fiu.qmd), and [my travels](travel.qmd)!*
 :::
 
-
+<i class="fa-solid fa-person-running icon-blue"></i>
+<i class="fa-solid fa-water icon-blue"></i>
+<i class="fa-solid fa-camera icon-blue"></i>
+<i class="fa-solid fa-fish icon-blue"></i>
 
 
 
